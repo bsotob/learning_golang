@@ -1,8 +1,8 @@
 package main
 
 import (
-	"curso_go/9_estructuras/model"
 	"fmt"
+	"learning_golang/9_estructuras/model"
 )
 
 func main() {
