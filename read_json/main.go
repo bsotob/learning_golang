@@ -22,6 +22,10 @@ func main() {
 		fmt.Println(string(config.Contraseña))
 		fmt.Println(config)
 	}
-
-	fmt.Println(string(byteValue))
+	playbook, err := ioutil.ReadFile("./playbooks/config.json")
+	if err != nil {
+		fmt.Println(err)
+	} else {
+		fmt.Println(string(playbook))
+	}
 }
