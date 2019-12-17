@@ -8,6 +8,7 @@ import (
 func main() {
 	coche := model.NewCoche(10, 1000, 1)
 	fmt.Println(coche.Arranca())
+	fmt.Println(coche.MotorCoche)
 
 	//
 }
